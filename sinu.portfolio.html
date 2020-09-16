@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sidebar menu</title>
+    <link rel="stylesheet" href="sinu.portfolio.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#">
+                <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                <span class="title">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="../bootstrap/html/progress.bar.html">
+                    <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                    <span class="title">profile</span> 
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-question-circle-o" aria-hidden="true"></i></span>
+                    <span class="title">help</span> 
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-lock" aria-hidden="true"></i></span>
+                    <span class="title">password</span> 
+            </li>
+            <li>
+                <a href="../creative content/contactus.html">
+                    <span class="icon"><i class="fa fa-comments" aria-hidden="true"></i></span>
+                    <span class="title">message</span> 
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+                    <span class="title">setting</span> 
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
+                    <span class="title">signout</span> 
+            </li>
+        </ul>
+    </div> </div>
+    <div class="content">
+        <div class="about"><h1>Webdeveloper</h1></div>
+        <div class="pic">
+        <img src="../satish portfolio/image/sinu.pic.jpeg" alt=""></div>
+        <div class="skills">
+    <li> I am able to design fully responsibe and dynamic website</li><br>
+   <li>having a good knowledge of database</li><br>
+    <li>use of plugins</li><br>
+    <li>able to design web clones</li><br></div>
+           </div>
+    </div>
+    <div class="toggle" onclick="toggleMenu()"></div>
+    <script type="text/javascript">
+    function toggleMenu(){
+        let navigation = document.querySelector('.navigation')
+        navigation.classList.toggle('.toggle');
+        navigation.classList.toggle('active');
+        toggle.classList.toggle('active');
+
+    }
+    </script>
+
+                    
+    </div>
+
+</body>
+</html>
